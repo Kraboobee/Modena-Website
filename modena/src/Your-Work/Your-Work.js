@@ -3,7 +3,7 @@ import background from './img/yourwork.jpg'
 
 const YourWork = () => {
     return (
-        <div className='container mx-auto mb-5'>
+        <div className='container mx-5 mb-5'>
             <div className='flex flex-row gap-5 items-center'>
                 <div className='basis-1/2 font-extralight'>
                     <h1 className='text-left text-2xl'>
