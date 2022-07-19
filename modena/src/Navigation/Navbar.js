@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+// TODO: logo in nav bar
 // TODO: useState hook to hide menu in mobile
 
 
