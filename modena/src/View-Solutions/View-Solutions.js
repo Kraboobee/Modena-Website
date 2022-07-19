@@ -8,7 +8,7 @@ const Solutions = () => {
 
     return (
       <div className="container mx-auto mb-5">
-            <div className="grid grid-flow-col gap-5 items-center">
+            <div className="grid grid-flow-col gap-5 items-stretch">
                 {solutionList.map((solution) => (
                 <ViewSolutionContainer 
                 solution={solution} 

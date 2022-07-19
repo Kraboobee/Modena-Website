@@ -17,44 +17,10 @@ const ViewSolutionContainer = ( { solution }) => (
           View Solutions
           </button>
         </div>
+        <div>
+          <img src={solution.img} alt="" />
+        </div>
     </div>
 )
-
-// const ViewSolutions = () => {
-//     return (
-//         <div className="container mx-auto">
-//             <div className="flex flex-row gap-5 items-center text-center ">
-//                 <div className="basis-1/3 font-extralight">
-//                     <h1 className='text-2xl'>
-//                         Content Creation
-//                     </h1>
-//                     <br />
-//                     <p className='text-lg'>
-//                         VFX, Rendering, Graphics, Video & Photo
-//                     </p>
-//                 </div>
-//                 <div className="basis-1/3 font-extralight">
-//                     <h1 className='text-2xl'>
-//                         Content Creation
-//                     </h1>
-//                     <br />
-//                     <p className='text-lg'>
-//                         VFX, Rendering, Graphics, Video & Photo
-//                     </p>
-//                 </div>
-//                 <div className="basis-1/3 font-extralight">
-//                     <h1 className='text-2xl'>
-//                         Content Creation
-//                     </h1>
-//                     <br />
-//                     <p className='text-lg'>
-//                         VFX, Rendering, Graphics, Video & Photo
-//                     </p>
-//                 </div>
-
-//             </div>
-//         </div>
-//     )
-// }
 
 export default ViewSolutionContainer
