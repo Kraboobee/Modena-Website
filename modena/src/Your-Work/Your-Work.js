@@ -4,8 +4,8 @@ import background from './img/yourwork.jpg'
 const YourWork = () => {
     return (
         <div className='container mx-auto'>
-            <div className='flex flex-row'>
-                <div className='basis-1/2'>
+            <div className='flex flex-row gap-5 items-center'>
+                <div className='basis-1/2 font-extralight'>
                     <h1 className='text-left text-2xl'>
                         We Understand Your Work
                     </h1>
@@ -23,7 +23,7 @@ const YourWork = () => {
                     </p>
                 </div>
                 <div className="basis 1/2">
-                    <img src={ background } />
+                    <img src={ background } alt="" />
                 </div>
             </div>      
         </div>
@@ -32,4 +32,4 @@ const YourWork = () => {
 
 export default YourWork
 
- {/* <div className='container mx-auto bg-auto bg-no-repeat bg-right' style={{backgroundImage: `url(${background})`}}> */}
+ /* <div className='container mx-auto bg-auto bg-no-repeat bg-right' style={{backgroundImage: `url(${background})`}}> */
