@@ -7,8 +7,8 @@ const Solutions = () => {
     if (!solutionList.length) return null
 
     return (
-      <div className="container mx-auto mb-5">
-            <div className="grid grid-flow-col gap-5 items-stretch">
+      <div className="container mx-auto mb-5 px-5">
+            <div className="grid grid-flow-col gap-5">
                 {solutionList.map((solution) => (
                 <ViewSolutionContainer 
                 solution={solution} 

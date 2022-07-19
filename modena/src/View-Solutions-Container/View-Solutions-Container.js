@@ -1,7 +1,7 @@
 import React from "react";
 
 const ViewSolutionContainer = ( { solution }) => (
-    <div className="flex flex-col gap-5 font-extralight text-center border">
+    <div className="flex flex-col gap-5 font-extralight text-center border-2 rounded-lg">
         <div>
           <h1 className='text-2xl'>
             {solution.name}
