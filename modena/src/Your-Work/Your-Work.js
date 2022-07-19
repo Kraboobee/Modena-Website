@@ -31,5 +31,3 @@ const YourWork = () => {
 }
 
 export default YourWork
-
- /* <div className='container mx-auto bg-auto bg-no-repeat bg-right' style={{backgroundImage: `url(${background})`}}> */
