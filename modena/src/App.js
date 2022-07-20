@@ -12,9 +12,9 @@ function App() {
   return (
     <div>
       <Navbar />
-      {/* <Home />
+      <Home />
       <YourWork />
-      <SelectIndustry /> */}
+      <SelectIndustry />
       <SelectSoftware />
     </div>
   );

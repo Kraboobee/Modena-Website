@@ -1,13 +1,30 @@
-export const Content = require('./industries/content.jpg');
-export const ContentHydra = require('./industries/content-h.png');
-export const Design = require('./industries/design.jpg');
-export const DesignHydra = require('./industries/design-h.png');
-export const Scientific = require('./industries/scientific.jpg');
-export const ScientificHydra = require('./industries/scientific-h.png');
+import Content from './industries/content.jpg';
+import ContentHydra from './industries/content-h.png';
+import Design from './industries/design.jpg';
+import DesignHydra from './industries/design-h.png';
+import Scientific from './industries/scientific.jpg';
+import ScientificHydra from './industries/scientific-h.png';
 
-export const NoImage = require('./software/cross.svg');
-export const Illustrator = require('./software/content/illustrator.svg');
-export const Incopy = require('./software/content/incopy.svg');
-export const Indesign = require('./software/content/indesign.svg');
-export const Lightroom = require('./software/content/lightroom-cc.svg');
-export const Photoshop = require('./software/content/photoshop.svg');
+import NoImage from './software/cross.svg';
+import Illustrator from './software/content/illustrator.svg';
+import Incopy from './software/content/incopy.svg';
+import Indesign from './software/content/indesign.svg';
+import Lightroom from './software/content/lightroom-cc.svg';
+import Photoshop from './software/content/photoshop.svg';
+
+const images = 
+    {Content,
+    ContentHydra,
+    Design,
+    DesignHydra,
+    Scientific,
+    ScientificHydra, 
+    NoImage,
+    Illustrator,
+    Incopy,
+    Indesign,
+    Lightroom,
+    Photoshop,
+}
+
+export default images

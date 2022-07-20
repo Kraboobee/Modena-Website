@@ -9,6 +9,7 @@ function SelectSoftware() {
 
     return (
         <div className="container mx-auto mb-5 px-5">
+            <p>hello</p>
             <div className="flex flex-row gap-5 items-center">
                 <div className="flex flex-col gap-5 place-content-center">
                     {contentSoftwareList.map((software) => (
