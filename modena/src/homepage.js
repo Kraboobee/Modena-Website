@@ -1,37 +1,31 @@
-import content from './img/content.jpg'
-import design from'./img/design.jpg'
-import scientific from './img/scientific.jpg'
+import { Content, ContentHydra, Design, DesignHydra, Scientific, ScientificHydra } from "./assets/img"
 
 const solutionList = [
     {
         id: 0,
         name: 'Content Creation',
         desc: 'VFX, Rendering, Graphics, Video & Photo', 
-        img: content
+        img: Content
     }, 
     {
         id: 1,
         name: 'Design & Engineering',
         desc: 'CAD/CAM, BIM, Simulation, Rendering', 
-        img: design
+        img: Design
     }, 
     {
         id: 2,
         name: 'Scientific Computing',
         desc: 'Data Science, Machine Learning, AI, Scientific', 
-        img: scientific
+        img: Scientific
     }, 
 
 ]
 
 const softwareDefault = {
         industry:   null, // solutionList id -> 0: content creation
-        name:       '', 
-        alias:      '',
         logo:       '', 
-        cpu:        '',
         ram:        `The amount of memory you will need depends on how many programs you will have open at any given time alongside ${alias} and how large the files are that you will be working with. A good starting point in deciding how much RAM you should go for would be to check your current usage via Windows Task Manager.`, 
-        gpu:        '', 
         ssd:        'In the past, computers were held back by slow mechanical hard drives.  Solid State drives should be used for the operating system and frequently accessed programs and files. Mechanical drives should only be used for extremely large files that are not used very often. Having everything stored on SSDs means you\’ll be able to copy, move, open and save files quickly and PC and program start times will be reduced.', 
         systems:    [1,1,0],
 }
