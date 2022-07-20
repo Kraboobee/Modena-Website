@@ -5,15 +5,17 @@ import Home from './Home-Page/Home';
 import Solutions from './View-Solutions/View-Solutions';
 import SelectIndustry from './View-Solutions/Solution-State';
 import YourWork from "./Your-Work/Your-Work.js";
+import SelectSoftware from './Software-Packages/Software-Packages';
 
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Home />
+      {/* <Home />
       <YourWork />
-      <SelectIndustry />
+      <SelectIndustry /> */}
+      <SelectSoftware />
     </div>
   );
 }
