@@ -12,6 +12,12 @@ import Indesign from './software/content/indesign.svg';
 import Lightroom from './software/content/lightroom-cc.svg';
 import Photoshop from './software/content/photoshop.svg';
 
+import Facebook from './socials/facebook.svg'
+import Instagram from './socials/instagram.svg'
+import Youtube from './socials/youtube.svg'
+import LinkedIn from './socials/linkedin.svg'
+import Twitter from './socials/twitter.svg'
+
 const images = 
     {Content,
     ContentHydra,
@@ -25,6 +31,11 @@ const images =
     Indesign,
     Lightroom,
     Photoshop,
+    Facebook,
+    Instagram,
+    Youtube,
+    LinkedIn,
+    Twitter
 }
 
 export default images
