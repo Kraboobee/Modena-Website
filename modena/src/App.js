@@ -6,6 +6,7 @@ import SelectIndustry from './View-Solutions/Solution-State';
 import YourWork from "./Your-Work/Your-Work.js";
 import SelectSoftware from './Software-Packages/Software-Packages';
 import Footer from './Footer/Footer';
+import CopyrightStrip from './Copyright-Strip/Copyright-Strip';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <SelectIndustry />
       <SelectSoftware />
       <Footer />
+      <CopyrightStrip />
     </div>
   );
 }
