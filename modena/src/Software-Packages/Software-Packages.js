@@ -9,14 +9,13 @@ function SelectSoftware() {
 
     return (
         <div className="container mx-auto mb-5 px-5">
-            <p>hello</p>
             <div className="flex flex-row gap-5 items-center">
                 <div className="flex flex-col gap-5 place-content-center">
                     {contentSoftwareList.map((software) => (
-                    <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
-                    onClick={() => setSoftware(software.id)}>
-                        {software.name}
+                    <button className="w-12" onClick={() => setSoftware(software.id)}>
+                        <img src={software.logo} alt="" />
                     </button>
+
                     ))}
                 </div>
                 <div>
@@ -30,3 +29,8 @@ function SelectSoftware() {
 }
 
 export default SelectSoftware
+
+                    // <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
+                    // onClick={() => setSoftware(software.id)}>
+                    //     {software.name}
+                    // </button>
